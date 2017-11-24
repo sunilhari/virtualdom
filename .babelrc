@@ -1,0 +1,12 @@
+{
+    "plugins": [
+        ["transform-react-jsx", {
+            "pragma": "build"
+        }],
+        ["transform-object-rest-spread"]
+    ],
+    "presets": [
+        "env"
+    ]
+}
+

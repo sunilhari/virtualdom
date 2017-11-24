@@ -1,0 +1,36 @@
+{
+  "name": "virtualdom",
+  "version": "1.0.0",
+  "description": "A small library to create virtual dom of a given markup",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack-dev-server",
+    "build-watch":"babel index.js --watch --out-file bundled.js",
+    "build":"babel index.js  --out-file bundled.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunilhari/virtualdom.git"
+  },
+  "keywords": [
+    "virtual",
+    "dom"
+  ],
+  "author": "Sunil Hari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sunilhari/virtualdom/issues"
+  },
+  "homepage": "https://github.com/sunilhari/virtualdom#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
